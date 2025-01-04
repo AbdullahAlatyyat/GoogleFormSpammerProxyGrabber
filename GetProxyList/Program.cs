@@ -21,7 +21,7 @@ class Program
         p.redis = ConnectionMultiplexer.Connect(
             new ConfigurationOptions
             {
-                EndPoints = { "100.74.130.10:6379" }
+                EndPoints = { "" }
             });
 #else
         p.redis = ConnectionMultiplexer.Connect(
